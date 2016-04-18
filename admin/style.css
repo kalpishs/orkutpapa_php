@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin:0;
+	padding:0
+}
+
+body
+{
+	background:url(../images/bg2.jpg);
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	
+}
+#wrapper
+{
+	margin:20px auto 0 auto;
+	width:1000px;
+	height:auto;
+	
+}
+#header
+{
+	width:1000px;
+	height:105px;
+	background:url(../images/rnc.png) no-repeat;
+	padding-top:20px;
+	
+}
+#header-content
+{
+	padding-left:10px;
+	width:210px;
+	height:70px;
+	padding-top:20px;
+	float:left;
+}
+
+
+#menu
+{
+	width:998px;
+	padding-left:2px;	
+	height:35px;
+	line-height:35px;
+	background:#2a333a;
+	text-decoration:none;
+	color:#fff;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+}
+#container
+{
+	width:1000px;
+	height:auto;
+	background:#fff;
+	padding-left:0px;
+	float:left;
+}
+#login-form
+{
+	
+	width:400px;
+	margin:40px auto;
+	border:1px solid #ccc;
+	padding:7px;
+}
+#login-form li {
+	list-style-type:none;
+	margin:6px 10px 6px 0px;
+}
+
+#login-form label {
+	width:125px;
+	display:block;
+	float:left;
+}
+
+
+#login-form input[type=text],#login-form input[type=password],select,{
+	border-color:#CCC;
+	border-style:solid;
+	border-width:1px;
+	padding:5px;
+	width:250px;
+	color:#2a333a;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+
+#login-form input[type=submit], #login-form input[type=reset]{
+	
+	border:#666 1px solid;
+	padding:5px;	
+	width:60px;
+}
+
+#login-form input[type=text]:focus, #login-form input[type=password]:focus 
+{
+	background:#78d8fb;	
+}
+
+#login-form ul li .labelfeat
+{
+	width:250px;
+	display:block;
+	float:left;
+}
+#details
+{
+	height:60px;
+	width:850px;
+	margin:30px  auto;
+	
+}
+#details table
+{
+	
+	width:850px;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+	color:#2a333a;
+}
+#details table th,#details table td
+{
+	border:none;
+}
+
+
+.details2
+{
+	height:auto;
+	width:210px;
+	margin:5px 25px;
+	color:#2a333a;
+	float:left;
+}
+.title
+{
+	color:#2a333a;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.details2 ul
+{
+	list-style-type:decimal;
+	margin:10px 18px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+
+
+#middel-container
+{
+	width:598px;
+	height:auto;
+	min-height:500px;
+	background:#fff;
+	border-left:1px solid #052952; 
+	border-right:1px solid #052952; 
+	float:left;
+}
+
+#left-container
+{
+	width:190px;
+	height:auto;
+	float:left;
+	margin-left:10px;
+	padding-top:7px;
+	
+	
+}
+
+#footer
+{
+	width:1000px;
+	height:60px;			
+	background:#2a333a;
+	color:#fff;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	line-height:16px;
+	padding-top	:20px;
+	float:left;
+}

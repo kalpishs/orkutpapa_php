@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule category/(.*)/page/(.*) category-page.php?slug=$1&page=$2
+RewriteRule category/(.*)/ category.php?slug=$1
